@@ -1,0 +1,48 @@
+{
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "terminal.integrated.rendererType": "dom",
+  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+  "workbench.editor.showTabs": true,
+  "breadcrumbs.enabled": true,
+  "files.trimTrailingWhitespace": false,
+  "workbench.startupEditor": "welcomePage",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.surveys.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
