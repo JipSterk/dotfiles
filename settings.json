@@ -1,8 +1,13 @@
 {
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "k"],
-      "after": ["<esc>"]
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<esc>"
+      ]
     }
   ],
   "editor.formatOnSave": true,
@@ -12,7 +17,11 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "[javascript]": {
     "editor.tabSize": 2
@@ -26,13 +35,17 @@
   "[graphql]": {
     "editor.tabSize": 2
   },
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "explorer.confirmDragAndDrop": false,
-  "workbench.statusBar.feedback.visible": false,
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.rendererType": "dom",
-  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "emmet.excludeLanguages": [
+    "typescript",
+    "typescriptreact",
+    "javascript"
+  ],
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "workbench.editor.showTabs": true,
   "breadcrumbs.enabled": true,
   "files.trimTrailingWhitespace": false,
@@ -44,5 +57,23 @@
     "source.organizeImports": true
   },
   "git.autofetch": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.renderControlCharacters": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 0,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false,
+  "arduino.additionalUrls": [
+    "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+  ],
+  "git.enableCommitSigning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.accessibilitySupport": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
